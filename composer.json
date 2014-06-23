@@ -1,0 +1,23 @@
+{
+    "name": "dooaki/amazon-wishlist",
+    "description": "parse wishlist on amazon.co.jp",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "do-aki",
+            "email": "do.hiroaki@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "guzzlehttp/guzzle": "*",
+        "symfony/dom-crawler": "*",
+        "symfony/css-selector": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.1.*"
+    },
+    "autoload": {
+        "psr-4": { "dooaki\\AmazonWishlist\\" : "src/" }
+    }
+}
